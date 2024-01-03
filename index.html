@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>QUIZ APP</title>
+</head>
+<body class="bg-slate-300 flex justify-center">
+
+    <div id="last" class="mt-52 hidden">
+        <h1 class="text-3xl font-serif mb-6">Your Score: <span id="scr">0</span></h1>
+        <button id="rst" class="text-xl bg-slate-600 text-slate-200 p-2 rounded-md mt-6">Restart Quiz</button>
+    </div>
+
+    <div id="main" class="border-2 border-slate-400 rounded-md p-4 w-7/12 flex flex-col mt-10">
+
+        <div class="bg-slate-600 text-white font-serif py-5 px-4 rounded-md">
+            <h1 class="text-4xl text-center">Quiz App</h1>
+            <div class="flex justify-between">
+                <p>Question <span id="q">1</span>/10</p>
+                <p>Score: <span id="s">0</span></p>
+            </div>
+        </div>
+        
+        <div class="quesCont flex flex-col items-start">
+            <h1 id="question" class="text-xl font-medium pt-4">This is the Question</h1>
+            <div class="flex flex-col items-start w-full">
+                <button id="op1" class="border-2 border-slate-400 rounded-md w-full text-left mt-4 p-2">op1</button>
+                <button id="op2" class="border-2 border-slate-400 rounded-md w-full text-left mt-4 p-2">op2</button>
+                <button id="op3" class="border-2 border-slate-400 rounded-md w-full text-left mt-4 p-2">op3</button>
+                <button id="op4" class="border-2 border-slate-400 rounded-md w-full text-left mt-4 p-2">op4</button>
+            </div>
+        </div>
+        <button id="nxt" class="mt-6 text-lg font-sans bg-slate-700 text-slate-100 w-2/12 rounded-md py-1 px-3 mx-auto">NEXT</button>
+    </div>
+
+    
+
+    
+
+    <script src="./script.js"></script>
+
+    
+</body>
+</html>
