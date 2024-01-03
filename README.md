@@ -2,6 +2,9 @@
 
 Welcome to the Quiz App! This simple quiz application is built using Tailwind CSS for styling and JavaScript for functionality.
 
+##Live Demo
+Check out the live demo [here](https://quiz--app.vercel.app/).
+
 ## Getting Started
 
 To run the quiz app locally, follow these steps:
