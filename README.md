@@ -42,7 +42,7 @@ To run the quiz app locally, follow these steps:
 
 ## Screenshots
 
-![Screenshot](Screenshot(498).png)
+![Screenshot](Screenshot.png)
 
 ## Project Structure
 
