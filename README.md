@@ -9,7 +9,7 @@ To run the quiz app locally, follow these steps:
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone 
+    git clone https://github.com/AnuragKhokhar/quiz-app.git
     ```
 
 2. Open the project directory:
